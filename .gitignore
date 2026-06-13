@@ -1,0 +1,74 @@
+# =====================
+# Python cache
+# =====================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# =====================
+# Virtual environment
+# =====================
+.venv/
+venv/
+ENV/
+
+# =====================
+# Environment variables
+# =====================
+.env
+
+
+# =====================
+# IDE configs
+# =====================
+.vscode/
+.idea/
+
+# =====================
+# OS files
+# =====================
+.DS_Store
+Thumbs.db
+
+# =====================
+# Logs
+# =====================
+*.log
+
+# =====================
+# Testing / cache
+# =====================
+.pytest_cache/
+htmlcov/
+.coverage
+
+# =====================
+# Jupyter
+# =====================
+.ipynb_checkpoints/
+
+# =====================
+# Build / dist
+# =====================
+dist/
+build/
+*.egg-info/
+
+# =====================
+# RAG DATA (CRITICAL)
+# =====================
+data/
+app/db/faiss/
+
+# =====================
+# VECTOR STORES (backup safety)
+# =====================
+chroma_db/
+vectorstore/
+
+# =====================
+# ML artifacts (optional safety)
+# =====================
+*.faiss
+*.sqlite
+*.db

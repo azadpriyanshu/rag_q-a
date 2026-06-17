@@ -112,6 +112,10 @@ TOP_K_RESULTS=5
 
 To use the application, you must prepare the dataset and generate embeddings locally.
 
+Dataset:
+Stack Overflow — Python Questions & Answers
+https://www.kaggle.com/datasets/stackoverflow/pythonquestions
+
 ### Step 1: Place Raw Dataset Files
 
 Create the following structure:

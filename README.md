@@ -57,7 +57,7 @@ python-qa-assistant/
 ### 1. Clone the Repository
 
 ```bash
-git clone <your-repository-url>
+git clone https://github.com/azadpriyanshu/rag_q-a.git
 cd python-qa-assistant
 ```
 
